@@ -1,6 +1,6 @@
-### Hi Welcome, I'm SEONGJAE KWAK 👋
+## Hi Welcome, I'm SEONGJAE KWAK 👋
 
-#### FE Developer
+### FE Developer
 
 🛠️ Stacks
 
