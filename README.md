@@ -5,9 +5,8 @@
     <img src="https://img.shields.io/badge/Blog-4593fc?style=square&logo=GitHubSponsors&logoColor=white"/>
   </a>
   <br />
-  
-  *****
-
+  <h2></h2>
+ 
   🛠️ Stacks
 
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
