@@ -36,6 +36,8 @@
 
   🐱 Contact
 
-  [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gkffhdnls13@gmail.com)](gkffhdnls13@gmail.com)
+  <a href="mailto:gkffhdnls13">
+    <img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gkffhdnls13"/>
+  </a>
 
 </div>
