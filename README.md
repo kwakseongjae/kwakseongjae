@@ -2,7 +2,7 @@
   <h3>곽성재</h3>
   <p>Frontend Developer</p>
   <a href="https://lambda-log.tistory.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Blog-4593fc?style=square&logo=GitHubSponsors&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Blog-4593fc?style=square&logo=GitHubSponsors&logoColor=white"/> 
   </a>
   <br />
   <h2></h2>
