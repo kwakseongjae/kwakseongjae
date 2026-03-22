@@ -32,6 +32,14 @@
   <br />
   <br />
 
+  ⚡ AI Stats
+
+  <a href="https://github.com/kwakseongjae/github-readme-ai-stats">
+    <img src="https://gist.githubusercontent.com/kwakseongjae/4d4c2aedb6d6ceab9ebee1abffdf607d/raw/card-tokyonight.svg" alt="AI Stats" />
+  </a>
+  <br />
+  <br />
+
   🐱 Contact
 
   <a href="mailto:gkffhdnls13">
