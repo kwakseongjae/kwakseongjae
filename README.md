@@ -1,4 +1,11 @@
 <div align="center">
+  <a href="https://kwakseongjae.github.io/kwakseongjae/" target="_blank">
+    <img src="./assets/interactive-profile.svg" alt="Open Kwak Seongjae's interactive README" width="100%" />
+  </a>
+  <sub>▲ 캐릭터를 누르면 README가 빨려 들어갑니다.</sub>
+  <br />
+  <br />
+
   <h3>곽성재</h3>
   <p>Frontend Developer</p>
   <a href="https://lambda-log.tistory.com/" target="_blank">

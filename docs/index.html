@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="곽성재의 인터랙티브 GitHub 프로필. 작은 Byte Blob이 README를 삼키고 진짜 프로필을 꺼냅니다."
+    />
+    <meta name="theme-color" content="#0d1117" />
+    <title>kwakseongjae / interactive README</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <main class="app-shell" id="appShell">
+      <header class="repo-bar">
+        <div class="repo-path" aria-label="Repository path">
+          <span class="repo-owner">kwakseongjae</span>
+          <span aria-hidden="true">/</span>
+          <span>README.md</span>
+        </div>
+        <a
+          class="source-link"
+          href="https://github.com/kwakseongjae/kwakseongjae"
+          target="_blank"
+          rel="noreferrer"
+        >
+          source ↗
+        </a>
+      </header>
+
+      <section class="stage" id="stage" aria-labelledby="profileName">
+        <canvas id="effectsCanvas" aria-hidden="true"></canvas>
+        <div class="ambient-grid" aria-hidden="true"></div>
+        <div class="ambient-glow ambient-glow--one" aria-hidden="true"></div>
+        <div class="ambient-glow ambient-glow--two" aria-hidden="true"></div>
+
+        <section class="readme-scene" id="readmeScene">
+          <header class="intro-block">
+            <p class="terminal-kicker" data-suck data-order="1">~/profile</p>
+            <h1 id="profileName" data-suck data-order="2">곽성재</h1>
+            <p class="role" data-suck data-order="3">Frontend Developer</p>
+            <a
+              class="mini-link mini-link--blog"
+              data-suck
+              data-order="4"
+              href="https://lambda-log.tistory.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              ♡ Blog
+            </a>
+          </header>
+
+          <div class="section-rule" data-suck data-order="5" aria-hidden="true"></div>
+
+          <section class="profile-section" aria-labelledby="stacksTitle">
+            <h2 id="stacksTitle" data-suck data-order="6">🛠 Stacks</h2>
+            <div class="badge-cloud" aria-label="Technology stack">
+              <span class="tech-badge tech-badge--javascript" data-suck data-order="7">JS&nbsp; JavaScript</span>
+              <span class="tech-badge tech-badge--typescript" data-suck data-order="8">TS&nbsp; TypeScript</span>
+              <span class="tech-badge tech-badge--react" data-suck data-order="9">⚛&nbsp; React</span>
+              <span class="tech-badge tech-badge--next" data-suck data-order="10">N&nbsp; Next.js</span>
+              <span class="tech-badge tech-badge--redux" data-suck data-order="11">◈&nbsp; Redux Toolkit</span>
+              <span class="tech-badge tech-badge--recoil" data-suck data-order="12">⌁&nbsp; Recoil</span>
+              <span class="tech-badge tech-badge--styled" data-suck data-order="13">〰&nbsp; Styled components</span>
+              <span class="tech-badge tech-badge--tailwind" data-suck data-order="14">〽&nbsp; tailwindcss</span>
+              <span class="tech-badge tech-badge--jest" data-suck data-order="15">◉&nbsp; Jest</span>
+            </div>
+          </section>
+
+          <section class="profile-section" aria-labelledby="toolsTitle">
+            <h2 id="toolsTitle" data-suck data-order="16">💪 Tools</h2>
+            <div class="tool-row">
+              <span class="tool-badge tool-badge--github" data-suck data-order="17">◉ GitHub</span>
+              <span class="tool-badge tool-badge--slack" data-suck data-order="18">Slack</span>
+            </div>
+          </section>
+
+          <section class="profile-section" aria-labelledby="statsTitle">
+            <h2 id="statsTitle" data-suck data-order="19">⚡ AI Stats</h2>
+            <a
+              class="stats-card"
+              data-suck
+              data-order="20"
+              href="https://github.com/kwakseongjae/github-readme-ai-stats"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Open AI Stats project"
+            >
+              <div class="stats-card__head">
+                <div>
+                  <span class="stats-card__icon">▣</span>
+                  <strong>AI Stats</strong>
+                  <span class="stats-card__handle">@kwakseongjae</span>
+                </div>
+                <span class="grade-ring" aria-label="AI usage grade B plus">B+</span>
+              </div>
+
+              <div class="model-row">
+                <span class="model-name">AI&nbsp; Opus 4.6 <small>(21.0M)</small></span>
+                <span class="model-bar"><i style="--fill: 51%"></i></span>
+                <span class="model-percent">51%</span>
+              </div>
+              <div class="model-row">
+                <span class="model-name">AI&nbsp; claude-opus-4-7 <small>(11.0M)</small></span>
+                <span class="model-bar"><i style="--fill: 27%"></i></span>
+                <span class="model-percent">27%</span>
+              </div>
+              <div class="model-row">
+                <span class="model-name">AI&nbsp; Sonnet 4.6 <small>(5.4M)</small></span>
+                <span class="model-bar"><i style="--fill: 13%"></i></span>
+                <span class="model-percent">13%</span>
+              </div>
+
+              <div class="stats-summary">
+                <span><strong>7.1M</strong><small>tokens/mo</small></span>
+                <span><strong>2427</strong><small>sessions</small></span>
+                <span><strong>74d</strong><small>streak</small></span>
+              </div>
+            </a>
+          </section>
+
+          <section class="profile-section contact-section" aria-labelledby="contactTitle">
+            <h2 id="contactTitle" data-suck data-order="21">🐱 Contact</h2>
+            <a
+              class="mini-link mini-link--gmail"
+              data-suck
+              data-order="22"
+              href="mailto:gkffhdnls13"
+            >
+              ✉ Gmail
+            </a>
+          </section>
+        </section>
+
+        <div class="reveal-layer" id="revealLayer" aria-hidden="true">
+          <article class="reveal-card" id="revealCard">
+            <p class="reveal-eyebrow">SO… WHAT WAS INSIDE?</p>
+            <div class="avatar-frame" role="img" aria-label="곽성재의 GitHub 프로필 이미지">
+              <span class="avatar-fallback" aria-hidden="true">곽</span>
+              <img
+                src="https://avatars.githubusercontent.com/u/87296259?v=4"
+                alt=""
+                width="112"
+                height="112"
+              />
+              <span class="avatar-status" aria-hidden="true"></span>
+            </div>
+            <p class="reveal-answer">Turns out, it was me.</p>
+            <h2>곽성재</h2>
+            <p class="reveal-role">Frontend Developer</p>
+            <p class="reveal-copy">
+              제품의 아이디어를 실제 인터페이스와 경험으로 연결합니다.<br />
+              요즘은 AI-native product와 새로운 메신저 경험을 만들고 있습니다.
+            </p>
+            <nav class="reveal-actions" aria-label="Profile links">
+              <a href="https://github.com/kwakseongjae" target="_blank" rel="noreferrer">GitHub ↗</a>
+              <a href="https://lambda-log.tistory.com/" target="_blank" rel="noreferrer">Blog ↗</a>
+              <button type="button" id="replayButton">Replay ↻</button>
+            </nav>
+          </article>
+        </div>
+
+        <button
+          class="mascot"
+          id="mascotButton"
+          type="button"
+          aria-label="Byte Blob에게 README를 먹이기"
+          aria-describedby="mascotHint"
+        >
+          <span class="mascot-shadow" aria-hidden="true"></span>
+          <span class="mascot-body" aria-hidden="true">
+            <span class="mascot-antenna"><i></i></span>
+            <span class="mascot-highlight"></span>
+            <span class="mascot-eye mascot-eye--left"><i></i></span>
+            <span class="mascot-eye mascot-eye--right"><i></i></span>
+            <span class="mascot-mouth" id="mascotMouth"><i></i></span>
+            <span class="mascot-spark mascot-spark--one"></span>
+            <span class="mascot-spark mascot-spark--two"></span>
+          </span>
+          <span class="mascot-hint" id="mascotHint">
+            <strong>FEED ME</strong>
+            <small>click the blob</small>
+          </span>
+        </button>
+
+        <button class="skip-button" id="skipButton" type="button">Skip animation</button>
+        <p class="screen-reader-status" id="liveStatus" role="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      DOM + Canvas + Web Animations API · no framework
+    </footer>
+
+    <noscript>
+      <p class="noscript-message">이 페이지의 인터랙션을 보려면 JavaScript를 켜 주세요.</p>
+    </noscript>
+  </body>
+</html>

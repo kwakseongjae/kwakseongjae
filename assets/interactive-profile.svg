@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-labelledby="title desc">
+  <title id="title">곽성재의 인터랙티브 GitHub 프로필</title>
+  <desc id="desc">Byte Blob 캐릭터를 눌러 README가 빨려 들어가고 곽성재의 프로필이 나타나는 페이지로 이동합니다.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#111722"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <radialGradient id="blob" cx="31%" cy="23%" r="85%">
+      <stop offset="0" stop-color="#776bd2"/>
+      <stop offset="0.56" stop-color="#443a8b"/>
+      <stop offset="1" stop-color="#292257"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#78a9ff" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#78a9ff" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#65f4b0"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#78a9ff" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="238" rx="14" fill="url(#bg)" stroke="#30363d"/>
+  <rect x="1" y="1" width="898" height="238" rx="14" fill="url(#grid)"/>
+  <circle cx="755" cy="118" r="120" fill="#65f4b0" opacity="0.035"/>
+  <circle cx="148" cy="-8" r="180" fill="#78a9ff" opacity="0.045"/>
+
+  <g transform="translate(49 43)">
+    <rect width="122" height="25" rx="12.5" fill="#65f4b0" fill-opacity="0.08" stroke="#65f4b0" stroke-opacity="0.35"/>
+    <text x="61" y="17" text-anchor="middle" fill="#65f4b0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700" letter-spacing="1.6">INTERACTIVE README</text>
+  </g>
+
+  <text x="49" y="113" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="37" font-weight="800" letter-spacing="-1.6">Feed the profile.</text>
+  <text x="49" y="145" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="600">Click the Byte Blob. It will swallow the README — then reveal me.</text>
+
+  <g transform="translate(49 174)">
+    <rect width="139" height="36" rx="9" fill="#65f4b0"/>
+    <text x="69.5" y="23" text-anchor="middle" fill="#09110e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="800">CLICK TO PLAY ↗</text>
+  </g>
+
+  <path d="M 544 120 C 606 76, 647 169, 704 119" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 9"/>
+  <circle cx="568" cy="102" r="4" fill="#78a9ff" opacity="0.75"/>
+  <circle cx="615" cy="141" r="3" fill="#9f7aea" opacity="0.8"/>
+  <circle cx="662" cy="104" r="5" fill="#f08a68" opacity="0.85"/>
+
+  <g transform="translate(700 48)">
+    <ellipse cx="84" cy="147" rx="64" ry="13" fill="#000" opacity="0.32"/>
+    <g transform="translate(19 8)">
+      <path d="M66 2 C69 11 68 20 65 29" fill="none" stroke="#322a68" stroke-width="11" stroke-linecap="round"/>
+      <rect x="56" y="-3" width="24" height="23" rx="9" fill="#65f4b0" stroke="#0f151f" stroke-width="4" transform="rotate(13 68 8)" filter="url(#glow)"/>
+    </g>
+    <path d="M23 76 C28 30 74 20 115 38 C150 53 158 93 137 124 C118 152 70 160 39 137 C17 121 13 99 23 76Z" fill="url(#blob)" stroke="#9d86ff" stroke-opacity="0.6"/>
+    <ellipse cx="65" cy="83" rx="11" ry="15" fill="#f1f7ff"/>
+    <ellipse cx="101" cy="83" rx="11" ry="15" fill="#f1f7ff"/>
+    <ellipse cx="69" cy="88" rx="4.5" ry="7" fill="#171225"/>
+    <ellipse cx="105" cy="88" rx="4.5" ry="7" fill="#171225"/>
+    <ellipse cx="84" cy="116" rx="19" ry="15" fill="#130e21" stroke="#0f0b1d" stroke-width="3"/>
+    <path d="M75 124 C82 118 91 118 97 124 C91 132 81 133 75 124Z" fill="#f08a68" opacity="0.85"/>
+    <path d="M42 55 C49 45 59 40 72 40" fill="none" stroke="#fff" stroke-opacity="0.16" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>
